@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Blink_idf",
+			"path": "Blink_idf"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"ctime": "cpp"
+		}
+	}
+}

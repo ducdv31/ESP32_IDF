@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/CMakeFiles/bootloader
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/CMakeFiles/bootloader.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/CMakeFiles/bootloader-complete.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

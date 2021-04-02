@@ -1,0 +1,20 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "F:/Users/ducda/esp/esp-idf/components/bootloader/subproject",
+    "build_dir":          "F:/PlatformIO/ESP32_IDF/Blink_idf/build/bootloader",
+    "config_file":        "F:/PlatformIO/ESP32_IDF/Blink_idf/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.2-dirty",
+    "target":             "esp32",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "F:/Users/ducda/esp/esp-idf/components/efuse/Kconfig;F:/Users/ducda/esp/esp-idf/components/esp32/Kconfig;F:/Users/ducda/esp/esp-idf/components/esp_common/Kconfig;F:/Users/ducda/esp/esp-idf/components/log/Kconfig;F:/Users/ducda/esp/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "F:/Users/ducda/esp/esp-idf/components/bootloader/Kconfig.projbuild;F:/Users/ducda/esp/esp-idf/components/esptool_py/Kconfig.projbuild;F:/Users/ducda/esp/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_rom", "esptool_py", "log", "main", "micro-ecc", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "F:/Users/ducda/esp/esp-idf/components/bootloader", "F:/Users/ducda/esp/esp-idf/components/bootloader_support", "F:/Users/ducda/esp/esp-idf/components/efuse", "F:/Users/ducda/esp/esp-idf/components/esp32", "F:/Users/ducda/esp/esp-idf/components/esp_common", "F:/Users/ducda/esp/esp-idf/components/esp_rom", "F:/Users/ducda/esp/esp-idf/components/esptool_py", "F:/Users/ducda/esp/esp-idf/components/log", "F:/Users/ducda/esp/esp-idf/components/bootloader/subproject/main", "F:/Users/ducda/esp/esp-idf/components/bootloader/subproject/components/micro-ecc", "F:/Users/ducda/esp/esp-idf/components/partition_table", "F:/Users/ducda/esp/esp-idf/components/soc", "F:/Users/ducda/esp/esp-idf/components/spi_flash", "F:/Users/ducda/esp/esp-idf/components/xtensa", "" ]
+}
