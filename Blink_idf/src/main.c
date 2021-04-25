@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include "freertos/FreeRTOS.h"
-#include "freertos/task.h"
-#include "esp_system.h"
-#include "driver/gpio.h"
+#include "main.h"
 #define led 2
 
 void blink_task(void *pvParameter)
@@ -19,10 +15,10 @@ void blink_task(void *pvParameter)
     while(1) {
         /* Blink off (output low) */
         gpio_set_level(led, 0);
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        vTaskDelay(10000 / portTICK_PERIOD_MS);
         /* Blink on (output high) */
         gpio_set_level(led, 1);
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        vTaskDelay(10000 / portTICK_PERIOD_MS);
     }
 }
 

@@ -3,11 +3,22 @@
 		{
 			"name": "Blink_idf",
 			"path": "Blink_idf"
+		},
+		{
+			"name": "ADC",
+			"path": "ADC"
+		},
+		{
+			"name": "UART",
+			"path": "UART"
 		}
 	],
 	"settings": {
 		"files.associations": {
-			"ctime": "cpp"
+			"ctime": "cpp",
+			"gpio.h": "c",
+			"spi_master.h": "c",
+			"freertos.h": "c"
 		}
 	}
 }
